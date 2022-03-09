@@ -33,12 +33,24 @@ Cypress coding challenge for LoanWell
 
 ----------------------------------------------------------
 ### 1. OBJECTIVE
+The following test cases will test the functionality of the Add to Cart form for Barnes & Noble Gift Card.
+
+
+### 2. FUNCTIONAL TESTS
+
+| ID | Test Scenario | Test Case | Pre-Condition | Test Steps | Test Data | Expected Result | Actual Result | Status P/F |
+|----|---------------|-----------|---------------|------------|-----------|-----------------|---------------|------------|
+| 001 | Successful Add to Cart | Mail Gift Card   | Tester must visit a Gift Card PDP that has mail delivery as an option   | 1. Visit [Gift Card PDP](https://www.barnesandnoble.com/w/classic-red-birthday-barnes-noble/1140203769?ean=9780594119647) <br>2. Enter a valid input in the card value field <br>3. Click 'Add to Cart'   | [Gift Card PDP](https://www.barnesandnoble.com/w/classic-red-birthday-barnes-noble/1140203769?ean=9780594119647)       | 1. A modal opens <br>2. The modal includes the text "Item Successfully Added To Your Cart"     |.     | . |
+
+
+
+
+
+### 1. OBJECTIVE
 The following test cases will check for functionality regressions in the Guest Information form on the IHG Payment page. The contents of the form and editable field options should vary based on the type of hotel rate selected and the type of customer (Unathenticated Guest, signed in member, signed out member).
 
-### 2. SCOPE
 
-
-### 3. REGRESSION TESTS
+### 2. REGRESSION TESTS
 
 | ID | Test Scenario | Test Case | Pre-Condition | Test Steps | Test Data | Expected Result | Actual Result | Status P/F |
 |----|---------------|-----------|---------------|------------|-----------|-----------------|---------------|------------|
